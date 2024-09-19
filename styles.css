@@ -1,0 +1,58 @@
+/* Todos los elementos de la página 
+Tamaño de fuente: 16px
+Familia de fuentes:Arial, Helvetica, sans-serif*/
+*{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    color: #555;
+}
+
+#primero p{
+    color: #369;
+}
+
+a{
+    color: #C30;
+}
+
+#primero em {
+    color: #0000BB; /* Color del texto en azul */
+    background-color: #FFFFCC; /* Color de fondo en amarillo claro */
+  }
+  
+  em.especial {
+    color: #FFFF00; /* Color del texto en amarillo */
+    background-color: #000000; /* Color de fondo en negro */
+  }
+
+  .normal span {
+    font-weight: bold;
+  }
+  
+
+/* Todos los elementos de la página 
+Tamaño de fuente: 16px
+Familia de fuentes:Arial, Helvetica, sans-serif;
+
+Todos los párrafos de la página 
+color: #555;
+
+Todos los párrafos contenidos en #primero 
+color: #369;
+
+Todos los enlaces de la página 
+color: #C30;
+
+Los elementos <em> contenidos en #primero 
+color: #0000BB;
+background-color: #FFFFCC;
+
+Todos los elementos <em> con la clase "especial" en toda la página 
+color: #FFFF00;
+background: #000000;
+
+Todos los elementos <span> contenidos en la clase "normal" 
+font-weight: bold;
+*/ 
